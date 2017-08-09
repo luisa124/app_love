@@ -1,0 +1,105 @@
+.text-uppercase {
+    text-transform: uppercase;
+}
+.link {
+    font-weight: 700;
+    padding: 21px;
+    display: inline-block;
+}
+
+/*hacemos que el logo lo posicione al lado derecho*/
+.logo {
+    float: right;
+}
+header {
+    position: fixed;/*hace que nuestro menu este fijo*/
+    background: white;
+    width: 100%;
+    top: 0;
+}
+
+.menu {
+    padding: 14px 70px;
+    overflow: auto;
+}
+
+/*Estos son los estilos de nuestro seccion del Home*/
+
+#home {
+    background-image: url(../img/bg-home_720.jpg);/*Nuestra imagen de portada*/
+    background-position: center;/*posicionar nuestra imagen de fondo*/
+    background-repeat: no-repeat;/*No repetira nuestra imagen de fondo*/
+    background-size: cover;/*Cubre todo el tamaño del contenedor*/
+    height: 554px; /*Altura de nuestro home*/
+    text-align: center; /*Alineacion al centro*/
+    margin-top: 80px; /*Darle un margen en la parte de arriba*/
+}
+
+#home {
+    color: white; /*Color blanco a los textos*/
+    padding: 70px; /*Relleno de 70px en todos los lados (top, reght, bottom y left)*/
+}
+
+.text-home {
+    font-size: 53px; /*tamaño de la tipografia*/
+}
+
+/*-------boton para el servise---------------*/
+.btn-home {
+    background: #2ECC71;/*color de fondo*/
+    color: #fff; /*color del texto*/
+    padding: 11px 20px; /*Rellero en el botton 11px (top - bottom) y 20px (lef - right)*/
+    border-radius: 1px; /*redondear el borde 1px*/
+    font-weight: 500;/**/
+    text-transform: uppercase; /*Convierte el texto en mayuscula*/
+    margin-top: 63px; /*margin en la parte de arriba: 63px*/
+    display: inline-block; /**/
+    font-size: 14px; /*Tamaño de letra: 14px*/
+}
+
+#services {
+    background-color: #F17C72; /*color de fondo*/
+    text-align: center; /*Alineacion al centro*/
+    color: #fff; /*color al texto: blanco*/
+    padding: 70px 7px; /*Relleno en el boton 70px (top - bottom) y 7px (lef - right)*/
+}
+
+.box-services {
+    display: inline-block;
+    width: 30%; /*Para que las cajas tengan un ancho de 30%*/
+    margin-top: 63px; /*margen de la parte de arriba: 63px*/
+}
+
+
+.text-services {
+    font-size: 35px; /*Tamaño de la letra*/
+    letter-spacing: 2px; /*Espacio entre cada letra*/
+}
+
+/*-----footer sirve para poner al pie de la pagina------*/
+footer {
+    text-align: center;
+    height: 70px;
+    background: #373B47;
+    color: white;
+    padding-top: 7px;
+}
+
+
+
+#work {
+    background-color: #fff;
+    text-align: center;
+    padding: 70px 7px;
+}
+.box-work {
+    height: 100PX;
+    width: 100PX;
+    display: inline-block;
+    width: 30%;
+    margin-top: 63px;
+}
+.text-work {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
